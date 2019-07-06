@@ -2,7 +2,7 @@
 
 # The HTTP endpoint for your Prisma API
 #endpoint: ''
-endpoint: https://us1.prisma.sh/hugo-209b92/hacker-rank/dev
+endpoint: ${env:PRISMA_ENDPOINT}
 
 # Points to the file that contains your datamodel
 datamodel: datamodel.prisma
