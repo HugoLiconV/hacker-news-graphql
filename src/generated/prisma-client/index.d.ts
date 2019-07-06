@@ -104,10 +104,6 @@ export interface Prisma {
    */
 
   createLink: (data: LinkCreateInput) => LinkPromise;
-  updateLink: (args: {
-    data: LinkUpdateInput;
-    where: LinkWhereUniqueInput;
-  }) => LinkPromise;
   updateManyLinks: (args: {
     data: LinkUpdateManyMutationInput;
     where?: LinkWhereInput;
